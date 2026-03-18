@@ -80,8 +80,8 @@ const MAX_IMAGE_HEIGHT = 30;
 const MULTI_CHECKING_COOKIE_VERSION = 'v3';
 const SMR_FILE_VERSION = '1.07';
 
-const JQUERY_URL = 'https://code.jquery.com/jquery-3.7.1.min.js';
-const JQUERYUI_URL = 'https://code.jquery.com/ui/1.14.1/jquery-ui.min.js';
+const JQUERY_URL = 'https://code.jquery.com/jquery-4.0.0.min.js';
+const JQUERYUI_URL = 'https://code.jquery.com/ui/1.14.2/jquery-ui.min.js';
 const LISTJS_URL = 'https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js';
 const WIKI_URL = 'https://wiki.smrealms.de';
 const DISCORD_URL = 'https://discord.me/smrealms';
@@ -166,8 +166,16 @@ const PORT_SEARCH_REDUCTION_FOR_EVIL_SHIP = 4;
  * Ship types
  */
 const SHIP_TYPE_GALACTIC_SEMI = 1;
+const SHIP_TYPE_CELESTIAL_TRADER = 3;
+const SHIP_TYPE_MERCHANT_VESSEL = 4;
+const SHIP_TYPE_STELLAR_FREIGHTER = 6;
+const SHIP_TYPE_LIGHT_COURIER_VESSEL = 7;
+const SHIP_TYPE_ADVANCED_COURIER_VESSEL = 10;
 const SHIP_TYPE_INTERSTELLAR_TRADER = 9;
+const SHIP_TYPE_FREIGHTER = 10;
+const SHIP_TYPE_PLANETARY_FREIGHTER = 11;
 const SHIP_TYPE_PLANETARY_SUPER_FREIGHTER = 12;
+const SHIP_TYPE_CELESTIAL_MERCENARY = 18;
 const SHIP_TYPE_FEDERAL_DISCOVERY = 20;
 const SHIP_TYPE_FEDERAL_WARRANT = 21;
 const SHIP_TYPE_FEDERAL_ULTIMATUM = 22;
